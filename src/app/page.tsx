@@ -68,7 +68,7 @@ export default function Home() {
         <div className="w-full flex flex-col md:flex-row items-start gap-12">
           {/* Large Video/GIF on the left */}
           <div className="flex-1 flex justify-start">
-            <img
+            <Image
               src="https://user-images.githubusercontent.com/4182043/32186288-b62e23a0-bd6f-11e7-83d9-ee83d9671f60.gif"
               alt="Live Excel Table Demo"
               className="rounded-xl shadow-lg border border-orange-900"

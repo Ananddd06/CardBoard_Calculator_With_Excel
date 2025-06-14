@@ -86,7 +86,8 @@ export default function CalculationPage() {
     const widthCm = toCm(form.width, form.widthUnit);
     const heightCm = toCm(form.height, form.heightUnit);
 
-    let extra1 = 3, extra2 = 6;
+    const extra1 = 3;
+    let extra2 = 6;
     if (form.ply !== "3PLY") extra2 = 12;
 
     const part1 = widthCm + heightCm + extra1;

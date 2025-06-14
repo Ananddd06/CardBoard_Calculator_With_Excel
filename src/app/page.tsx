@@ -69,7 +69,7 @@ export default function Home() {
           {/* Large Video/GIF on the left */}
           <div className="flex-1 flex justify-start">
             <Image
-              src="https://user-images.githubusercontent.com/4182043/32186288-b62e23a0-bd6f-11e7-83d9-ee83d9671f60.gif"
+              src="/Users/anand/Desktop/nextjs/cardboard-weight-calculator/Images/32186288-b62e23a0-bd6f-11e7-83d9-ee83d9671f60.gif"
               alt="Live Excel Table Demo"
               className="rounded-xl shadow-lg border border-orange-900"
               style={{ maxWidth: "600px", width: "100%", maxHeight: 520, objectFit: "cover" }}
